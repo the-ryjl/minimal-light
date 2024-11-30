@@ -14,8 +14,7 @@
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
 
-    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
-    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <link rel="icon" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
     <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin=anonymous>
@@ -89,6 +88,12 @@
           <i class="fab fa-x-twitter"></i>
         </a>
         {% endif %}
+
+        {% if site.btc %}
+        <a style="margin: 0 0 0 0" href="{{ site.btc }}">
+          <i class="fab fa-btc"></i>
+        </a>
+        {% endif %}
         </div>
         <br>
 
@@ -100,7 +105,7 @@
       <br>
 
       {% if site.enable_footnote %}
-      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      <p><small>See the source code for this website <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">here</a>.</small></p>
       {% endif %}
 
       </section>

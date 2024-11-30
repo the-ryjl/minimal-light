@@ -4,20 +4,20 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I'm an undergraduate student at NYU Stern School of Business, class of 2028, and planning on concentrating in finance.
 
-## Research Interests
+## Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- **Mergers and Acquistions (M&A):** tech, biotech
+- **Decentralized Finance (DeFi):** aggregators, staking, dapps
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
-
-{% include_relative _includes/publications.md %}
+- **[Month 202X]** Check back soon!
+- **[Month 202X]** ""
+- **[Month 202X]** ""
+- **[Nov. 2024]** Launched this website!
 
 {% include_relative _includes/services.md %}
+
+{% include_relative _includes/publications.md %}
